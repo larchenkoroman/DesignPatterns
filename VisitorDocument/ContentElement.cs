@@ -8,11 +8,8 @@ namespace VisitorDocument;
 
 public class ContentElement : IDocumentElement
 {
-    private string _text;
+    public string Text { get; set; }
 
-    ContentElement(string text) => _text = text;
-
-    public string Text { get; } = "";
     public void Accept(IDocumentVisitor visitor)
     {
         visitor.Visit(this);

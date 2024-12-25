@@ -6,13 +6,10 @@ using System.Threading.Tasks;
 
 namespace VisitorDocument;
 
-public class TitleElement: IDocumentElement
+public class TitleElement : IDocumentElement
 {
-    private string _text;
-
-    TitleElement(string text) => _text = text;
-
-    public string Text { get; } = "";
+    public string Text { get; set; } = "";
+    
     public void Accept(IDocumentVisitor visitor)
     {
         visitor.Visit(this);

@@ -8,11 +8,8 @@ namespace VisitorDocument;
 
 public class SubtitleElement : IDocumentElement
 {
-    private string _text;
+    public string Text { get; set; }
 
-    SubtitleElement(string text) => _text = text;
-
-    public string Text { get; } = "";
     public void Accept(IDocumentVisitor visitor)
     {
         visitor.Visit(this);
