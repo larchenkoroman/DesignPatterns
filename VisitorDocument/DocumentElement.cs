@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace VisitorDocument;
 
-public interface IDocumentElement
+public class DocumentElement
 {
-    void Accept(IDocumentVisitor visitor);
+    public string Text { get; set; } = "";
 }

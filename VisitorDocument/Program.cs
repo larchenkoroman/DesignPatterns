@@ -2,7 +2,7 @@
 
 using System.Linq.Expressions;
 
-List<IDocumentElement> elements = new();
+List<DocumentElement> elements = new();
 
 elements.Add(new TitleElement() { Text = "The Visitor design pattern" });
 elements.Add(new SubtitleElement() { Text = "Intent" });
@@ -15,15 +15,15 @@ TextDocumentVisitor textDocumentVisitor = new();
 
 foreach(var element in elements)
 {
-    element.Accept(textDocumentVisitor);
+    textDocumentVisitor.Visit(element);
 }
 
 Console.WriteLine("\n\nMarkdown format:");
 MarkdownDocumentVisitor markdownDocumentVisitor = new();
 
-foreach(var element in elements)
+foreach (var element in elements)
 {
-    element.Accept(markdownDocumentVisitor);
+    markdownDocumentVisitor.Visit(element);
 }
 
 Console.ReadKey();

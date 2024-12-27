@@ -6,17 +6,19 @@ using System.Threading.Tasks;
 
 namespace VisitorDocument;
 
-public class MarkdownDocumentVisitor: IDocumentVisitor
+public class MarkdownDocumentVisitor : Visitor
 {
-    public void Visit(TitleElement element)
+    public void VisitTitleElement(TitleElement element)
     {
         Console.WriteLine($"# {element.Text}");
     }
-    public void Visit(SubtitleElement element)
+
+    public void VisitSubtitleElement(SubtitleElement element)
     {
         Console.WriteLine($"## {element.Text}");
     }
-    public void Visit(ContentElement element)
+
+    public void VisitContentElement(ContentElement element)
     {
         Console.WriteLine(element.Text);
         Console.WriteLine();
