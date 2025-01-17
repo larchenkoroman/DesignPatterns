@@ -5,7 +5,9 @@ VisualStudioVersion = 17.7.34024.191
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Visitor", "Visitor\Visitor.csproj", "{69A59F25-0ABD-4A11-90BF-92D6E2082DFC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisitorDocument", "VisitorDocument\VisitorDocument.csproj", "{19D1AEBE-ACE8-4545-9095-34F266D9D420}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VisitorDocument", "VisitorDocument\VisitorDocument.csproj", "{19D1AEBE-ACE8-4545-9095-34F266D9D420}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interpreter", "Interpreter\Interpreter.csproj", "{C730D340-2424-461A-9E48-527E6CB593B6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{19D1AEBE-ACE8-4545-9095-34F266D9D420}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{19D1AEBE-ACE8-4545-9095-34F266D9D420}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{19D1AEBE-ACE8-4545-9095-34F266D9D420}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C730D340-2424-461A-9E48-527E6CB593B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C730D340-2424-461A-9E48-527E6CB593B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C730D340-2424-461A-9E48-527E6CB593B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C730D340-2424-461A-9E48-527E6CB593B6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
