@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VisitorDocument", "VisitorD
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interpreter", "Interpreter\Interpreter.csproj", "{C730D340-2424-461A-9E48-527E6CB593B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterpreterSearchQueryLanguage", "InterpreterSearchQueryLanguage\InterpreterSearchQueryLanguage.csproj", "{0C340ABE-41E3-41AA-BA88-9ED90737CCE6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterpreterSearchQueryLanguage", "InterpreterSearchQueryLanguage\InterpreterSearchQueryLanguage.csproj", "{0C340ABE-41E3-41AA-BA88-9ED90737CCE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod_Game", "FactoryMethod_Game\FactoryMethod_Game.csproj", "{169F71C7-975D-4341-A412-844E993CD13F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{0C340ABE-41E3-41AA-BA88-9ED90737CCE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C340ABE-41E3-41AA-BA88-9ED90737CCE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0C340ABE-41E3-41AA-BA88-9ED90737CCE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{169F71C7-975D-4341-A412-844E993CD13F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{169F71C7-975D-4341-A412-844E993CD13F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{169F71C7-975D-4341-A412-844E993CD13F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{169F71C7-975D-4341-A412-844E993CD13F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
