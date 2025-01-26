@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singlenton", "Singlenton\Si
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SinglentonDI", "SinglentonDI\SinglentonDI.csproj", "{0604EAFE-7608-4222-B244-CA88D9A72284}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy", "Strategy\Strategy.csproj", "{DCBC4751-3C65-4962-A507-C6718F9A9190}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{0604EAFE-7608-4222-B244-CA88D9A72284}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0604EAFE-7608-4222-B244-CA88D9A72284}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0604EAFE-7608-4222-B244-CA88D9A72284}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCBC4751-3C65-4962-A507-C6718F9A9190}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCBC4751-3C65-4962-A507-C6718F9A9190}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCBC4751-3C65-4962-A507-C6718F9A9190}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCBC4751-3C65-4962-A507-C6718F9A9190}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
