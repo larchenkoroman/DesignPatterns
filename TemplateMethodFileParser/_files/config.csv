@@ -1,0 +1,4 @@
+﻿DatabaseConnection,rrrrr
+ApiKey,wwww
+Timeout,30
+MaxRetries,3

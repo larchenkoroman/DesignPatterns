@@ -1,0 +1,6 @@
+﻿{
+  "DatabaseConnection": "rrrrr",
+  "ApiKey": "wwww",
+  "Timeout": "31",
+  "MaxRetries": "3"
+}
