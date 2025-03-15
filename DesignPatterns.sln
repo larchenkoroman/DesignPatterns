@@ -39,6 +39,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethod", "TemplateM
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethodFileParser", "TemplateMethodFileParser\TemplateMethodFileParser.csproj", "{94DAE9CB-531C-47C1-B3D9-20CF9D4B999A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composite", "Composite\Composite.csproj", "{FB03EC84-8FE0-4AA0-962A-08DBA74F18B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompositeDomeTrain", "CompositeDomeTrain\CompositeDomeTrain.csproj", "{F1DFAC98-7227-42FD-9EE0-309E5514EA2C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +121,14 @@ Global
 		{94DAE9CB-531C-47C1-B3D9-20CF9D4B999A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94DAE9CB-531C-47C1-B3D9-20CF9D4B999A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{94DAE9CB-531C-47C1-B3D9-20CF9D4B999A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB03EC84-8FE0-4AA0-962A-08DBA74F18B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB03EC84-8FE0-4AA0-962A-08DBA74F18B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB03EC84-8FE0-4AA0-962A-08DBA74F18B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB03EC84-8FE0-4AA0-962A-08DBA74F18B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1DFAC98-7227-42FD-9EE0-309E5514EA2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1DFAC98-7227-42FD-9EE0-309E5514EA2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1DFAC98-7227-42FD-9EE0-309E5514EA2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1DFAC98-7227-42FD-9EE0-309E5514EA2C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
