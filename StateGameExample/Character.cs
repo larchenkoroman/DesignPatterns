@@ -13,6 +13,6 @@ public class Character()
     public void TakeDamage(int amount) => _state.HandleDamage(this, amount);
     public void CollectPowerUp() => _state.HandleCollectPowerUp(this);
     public void Update() => _state.HandleUpdate(this);
-    public void ModifyHealth(int amount) => Health += amount;
+    public void ModifyHealth(int amount) => Health = Math.Clamp(Health + amount, 0, 100);
     public void SetPowerUp(bool hasPowerUp) => HasPowerUp = hasPowerUp;
 }
