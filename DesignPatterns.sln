@@ -55,6 +55,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainOfResponsibility", "Ch
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bridge", "Bridge\Bridge.csproj", "{66869062-AF5A-44BB-A8BD-DA08878A9570}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "Builder\Builder.csproj", "{756ACA4C-5721-4BCB-AE3C-B9256468DFAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder_Nested", "Builder_Nested\Builder_Nested.csproj", "{F97F5126-9848-4BBB-BC8B-BAACCAA24373}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -165,6 +169,14 @@ Global
 		{66869062-AF5A-44BB-A8BD-DA08878A9570}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{66869062-AF5A-44BB-A8BD-DA08878A9570}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{66869062-AF5A-44BB-A8BD-DA08878A9570}.Release|Any CPU.Build.0 = Release|Any CPU
+		{756ACA4C-5721-4BCB-AE3C-B9256468DFAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{756ACA4C-5721-4BCB-AE3C-B9256468DFAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{756ACA4C-5721-4BCB-AE3C-B9256468DFAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{756ACA4C-5721-4BCB-AE3C-B9256468DFAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F97F5126-9848-4BBB-BC8B-BAACCAA24373}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F97F5126-9848-4BBB-BC8B-BAACCAA24373}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F97F5126-9848-4BBB-BC8B-BAACCAA24373}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F97F5126-9848-4BBB-BC8B-BAACCAA24373}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
