@@ -57,7 +57,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bridge", "Bridge\Bridge.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "Builder\Builder.csproj", "{756ACA4C-5721-4BCB-AE3C-B9256468DFAE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder_Nested", "Builder_Nested\Builder_Nested.csproj", "{F97F5126-9848-4BBB-BC8B-BAACCAA24373}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder_NestedFluent", "Builder_Nested\Builder_NestedFluent.csproj", "{F97F5126-9848-4BBB-BC8B-BAACCAA24373}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proxy", "Proxy\Proxy.csproj", "{4254D858-ED65-440C-9CC1-BAEC383468D1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -177,6 +179,10 @@ Global
 		{F97F5126-9848-4BBB-BC8B-BAACCAA24373}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F97F5126-9848-4BBB-BC8B-BAACCAA24373}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F97F5126-9848-4BBB-BC8B-BAACCAA24373}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4254D858-ED65-440C-9CC1-BAEC383468D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4254D858-ED65-440C-9CC1-BAEC383468D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4254D858-ED65-440C-9CC1-BAEC383468D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4254D858-ED65-440C-9CC1-BAEC383468D1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
